@@ -4,6 +4,7 @@
   padding-right: 12.5%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar__image {
@@ -14,4 +15,19 @@
 .navbar__right-wrapper {
   display: flex;
   justify-content: space-between;
+  width: 60%;
+}
+
+.navbar__right-wrapper span {
+  color: #626262;
+  font-family: Arvo, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar__right-wrapper span:hover {
+  color: #51a3ec;
+  cursor: pointer;
 }
