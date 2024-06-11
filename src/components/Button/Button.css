@@ -11,9 +11,10 @@
   font-style: normal;
   font-weight: 400;
 }
-
+.button__container:hover span {
+  color: #fff !important;
+}
 .button__container:hover {
   cursor: pointer;
   background-color: #5482b0;
-  color: #fff;
 }
