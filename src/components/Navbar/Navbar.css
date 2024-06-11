@@ -1,0 +1,17 @@
+.navbar__container {
+  width: calc(100% - 25%);
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__image {
+  object-fit: contain;
+  width: 10%;
+}
+
+.navbar__right-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
