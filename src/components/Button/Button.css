@@ -1,0 +1,19 @@
+.button__container {
+  border: solid 2px #5482b0;
+  width: min-content;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #5482b0;
+}
+.button__container span {
+  font-family: Arvo, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.button__container:hover {
+  cursor: pointer;
+  background-color: #5482b0;
+  color: #fff;
+}
