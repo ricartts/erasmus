@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="footer__container">
       <div className="footer__button-wrapper">
-        <Button text={"Contact"} />
+        <Button text={"Contact"} color={"#5482b0"} />
         <span>Project ref. 2020-1-ES01-KA203-082513</span>
       </div>
       <img src={mockImage} alt="" />
